@@ -1,12 +1,17 @@
 header {
-    background-color: red;
+    background-color: transparent;
+    background-image: url('https://wallpaperaccess.com/full/8137758.jpg');
     padding: 0%;
     margin: 0%;
+    color:black;
+    text-align:left;
 
 }
 
+
+
 footer {
-    background-color: #160606;
+    background-color: transparent;
     text-align: center;
     padding: 10px;
   }
