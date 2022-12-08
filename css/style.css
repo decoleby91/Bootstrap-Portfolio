@@ -12,7 +12,7 @@ h1, h2, h3 , h4, h5, h6 {
   .customNav {
     position: fixed;
     width: 100%;
-    background: url("../images/transparency.png");
+    background: url('');
     background-color: transparent !important;
     background-size: cover;
     z-index: 10;
@@ -49,6 +49,7 @@ h1, h2, h3 , h4, h5, h6 {
     font-size: 15px;
   }
   
+
   /* Jumbotron  */
   .jumbotron {
     background-image: url('../images/background1.png');
@@ -67,6 +68,10 @@ h1, h2, h3 , h4, h5, h6 {
     max-width: 700px;
     color: white;
     text-align: center;
+  }
+
+  body {
+    background-color: aqua;
   }
   
   /* Drop down menu stuff*/
