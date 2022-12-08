@@ -1,96 +1,200 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en-gb">
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Bootstrap Portfolio</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="./css/style.css">
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Anton|Jura&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/index.css">
+
+  <title>James Coleby Portfolio</title>
 </head>
 
-<header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">About Me</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Projects</a>
-                        <a class="dropdown-item" href="#">CV</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Contact Me</a>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="#">Social Media</a>
-                </li>
-            </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form>
-        </div>
-    </nav>
-</header>
-
-
 <body>
-    <main>
-        <section>
-            <h1>James Coleby Portfolio</h1>
-        </section>
 
-        <h2>About Me</h2>
-        <p>I am currently a participant on a Front-end Web Development bootcamp offered by Trilogy & Edx. The length of
-            the
-            course is 16 weeks(15/11/2022-24/03/2023) in length. During the course I'll be introduced to the modern
-            technologies
-            used to build the web. These will include the following:
-        <ul>
-            <li>JavaScript(ES6+)</li>
-            <li>HTML5</li>
-            <li>CSS</li>
-            <li>Bootstrap</li>
-            <li>React JavaScript</li>
-            <li>Node.js </li>
-            <li>API's </li>
-        </ul>
+  <!-- Navigation bar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light customNav">
+    <a class="navbar-brand" href="#"><img src="images/acoustic-guitar.png">Rock Nation</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Venues <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Artists</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">Near you</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Venues</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Artists</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Upcoming Acts</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="btn btn-primary btn-lg navCTA" href="#" role="button">Buy Tickets</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- End navigation bar -->
+
+  <!-- Jumbotron -->
+  <div class="jumbotron rockBackground">
+    <div class="jumboCopy">
+      <h1 class="display-4">It's Time to Rock</h1>
+      <p class="lead">Rock Nation brings you the most headbanging shows on the planet. Click below to find tickets for
+        your favorite bands</p>
+      <a class="btn btn-primary btn-lg" href="#" role="button">Buy Tickets</a>
+    </div>
+  </div>
+  <!-- End jumbotron -->
+  <!-- Cards -->
+  <div class="container-fluid">
+    <div class="row">
+      <!-- Card 1 -->
+      <div class="cardContainer col-lg-3 col-md-3 col-sm-6">
+        <div class="card">
+          <img src="images/1_card.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Project 1: JavaScript Question Game</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <!-- End card 1 -->
+
+      <!-- Card 2 -->
+      <div class="cardContainer col-lg-3 col-md-3 col-sm-6">
+        <div class="card">
+          <img src="images/2_card.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Project 2</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <!-- End card 2 -->
+
+      <!-- Card 3 -->
+      <div class="cardContainer col-lg-3 col-md-3 col-sm-6">
+        <div class="card">
+          <img src="images/3_card.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Project 3</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <!-- End card 3 -->
+<div class="cardContainer col-lg-3 col-md-3 col-sm-6">
+        <div class="card">
+          <img src="images/3_card.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Project 3</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="cardContainer col-lg-3 col-md-3 col-sm-6">
+        <div class="card">
+          <img src="images/4_card.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Project 3</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <!--End Card 4-->
+
+     <!-- Card 5 -->
+     <div class="cardContainer col-lg-3 col-md-3 col-sm-6">
+        <div class="card">
+          <img src="images/3_card.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Project 3</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <!--End Card 5-->
+    </div>
+  </div>
+  <!-- End cards -->
+
+  <!-- Content -->
+  <div class="container-fluid">
+
+    <!-- Row 1 -->
+    <div class="row">
+      <div class="sideAccent">
+      </div>
+      <div class="col-3">
+        <img src="images/assistance.png">
+      </div>
+      <div class="col-8">
+        <h3>Title 1</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Lorem ipsum dolor sit amet.
         </p>
-        <article></article>
-        <section>
-            <h2>Projects</h2>
-            <aside>Porject 1: JavaScript Quiz Game</aside>
-            <aside> Project 2: Recreated Giphy’s API to recreate Giphy</aside>
-            <aside>Project 3: Bootstrap Landing Page </aside>
-            <aside>Project 4: My Content Management System</aside>
-            <aside>Project 5: List App Built using Svelte</aside>
-        </section>
-    </main>
-    <script src="" async defer></script>
+        <a href="#" class="btn btn-primary">Contact Us
+        </a>
+      </div>
+    </div>
+    <!-- End row 1 -->
+
+  </div>
+  <!-- End content -->
+
+  <!-- Footer -->
+  <footer>
+    <form>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+          placeholder="Enter email">
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </footer>
+  <!-- End footer -->
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
 </body>
-<footer>
-    <h2>Contact Me</h2>
-    <p>Email:jamescoleby1991@gmail.com</p>
-    <p><a href="https://www.linkedin.com/in/james-coleby-100950220/">LinkedIn</a></p>
-    <p><a href="https://github.com/decoleby91">GitHub</a></p>
-</footer>
 
 </html>
