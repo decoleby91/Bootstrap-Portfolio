@@ -7,9 +7,9 @@ header {
     text-align:left;
 }
 
-nav {
+.navbar {
     display: flex;
-    justify-content: center;
+    justify-content:centre;
     justify-content: space-between;
 }
 
