@@ -5,7 +5,11 @@ header {
     margin: 0%;
     color:black;
     text-align:left;
+}
 
+h1 {
+    display: flex;
+    justify-content: center;
 }
 
 body {
