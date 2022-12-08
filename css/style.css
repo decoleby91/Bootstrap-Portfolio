@@ -1,6 +1,6 @@
 header {
     background-color: transparent;
-    background-image: url('https://static.vecteezy.com/system/resources/thumbnails/004/709/149/small/grey-white-abstract-background-geometry-shine-and-layer-element-for-presentation-design-suit-for-business-corporate-institution-party-festive-seminar-and-talks-vector.jpg');
+    background-image: url('https://static.vecteezy.com/system/resources/thumbnails/003/169/780/small/white-colored-background-free-vector.jpg');
     padding: 0%;
     margin: 0%;
     color:black;
@@ -19,6 +19,9 @@ body {
 
 
 footer {
+    display:flex;
+    justify-content: flex-start;
+    justify-content:space-evenly;
     background-color: transparent;
     background-image: url('https://media.istockphoto.com/id/1296403715/vector/abstract-gray-vector-background.jpg?b=1&s=612x612&w=0&k=20&c=2B9jiQMFZynXsF0Cxdj3lH_BhGCtbgL4-kRLs8hISXA=');
     text-align: center;
