@@ -6,8 +6,6 @@ h1, h2, h3 , h4, h5, h6 {
     font-family: 'Jura', sans-serif;
   }
 
-  
-  
   /* Navigation bar */
   
   /* General */
@@ -34,7 +32,7 @@ h1, h2, h3 , h4, h5, h6 {
   /* Navigation dropdown menu */
   .dropdown-menu {
     background: url("../images/transparency.png");
-    background-color: transparent !important;
+    background-color: transparent;
     background-size: cover;
   }
   .dropdown-item:focus, .dropdown-item:hover {
@@ -54,7 +52,7 @@ h1, h2, h3 , h4, h5, h6 {
 
   /* Jumbotron  */
   .jumbotron {
-    background-image: url('../images/background1.png');
+    background-image: url('');
     background-size: cover;
     background-repeat: no-repeat;
     height: calc(100vh - 25px);
@@ -68,7 +66,7 @@ h1, h2, h3 , h4, h5, h6 {
     width: 70%;
     min-width: 500px;
     max-width: 700px;
-    color: white;
+    color: black;
     text-align: center;
   }
 
