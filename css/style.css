@@ -1,6 +1,6 @@
 header {
     background-color: transparent;
-    background-image: url('https://static.vecteezy.com/system/resources/thumbnails/002/104/366/small/abstract-modern-diagonal-stripes-red-background-and-texture-with-lines-vector.jpg');
+    background-image: url('https://static.vecteezy.com/system/resources/thumbnails/004/709/149/small/grey-white-abstract-background-geometry-shine-and-layer-element-for-presentation-design-suit-for-business-corporate-institution-party-festive-seminar-and-talks-vector.jpg');
     padding: 0%;
     margin: 0%;
     color:black;
@@ -10,17 +10,18 @@ header {
 
 body {
     background-color: transparent;
-    background-image: url('https://cdn.pixabay.com/photo/2013/07/13/12/08/background-159244__340.png');
+    background-image: url('https://media.istockphoto.com/id/1286354786/vector/dark-prism-textured-abstract-background.jpg?s=612x612&w=0&k=20&c=lJiYScAyV7Iqn5FKdxMYCuntLO0ljQkR_oEftweNjmE=');
     padding: 0%;
     margin: 0%;
-    color: black;
+    color: white;
     text-align: left;
 }
 
 
 footer {
     background-color: transparent;
-    background-image: url('');
+    background-image: url('https://media.istockphoto.com/id/1296403715/vector/abstract-gray-vector-background.jpg?b=1&s=612x612&w=0&k=20&c=2B9jiQMFZynXsF0Cxdj3lH_BhGCtbgL4-kRLs8hISXA=');
     text-align: center;
     padding: 10px;
+    color: black;
   }
