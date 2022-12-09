@@ -49,6 +49,16 @@ h1, h2, h3 , h4, h5, h6 {
     font-size: 15px;
   }
   
+  .hero {
+    display: flex;
+    justify-content:center
+    background-image: none;
+    background-image: url();
+    padding: 0;
+    border: 0;
+    margin: auto;
+    text
+  }
 
   /* Jumbotron  */
   .jumbotron {
@@ -89,3 +99,5 @@ h1, h2, h3 , h4, h5, h6 {
   .card {
     margin: 0 auto;
   }
+
+  
