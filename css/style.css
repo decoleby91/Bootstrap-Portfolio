@@ -13,13 +13,13 @@ h1, h2, h3 , h4, h5, h6 {
     position: fixed;
     width: 100%;
     background: url('');
-    background-color: transparent !important;
+    background-color: transparent;
     background-size: cover;
     z-index: 10;
   }
   .navbar-nav {
     margin-left: auto;
-    margin-right: 0 !important;
+    margin-right: 0 ;
   }
   .navbar-brand img {
     padding-right: 15px;
@@ -43,22 +43,12 @@ h1, h2, h3 , h4, h5, h6 {
   
   /* Navigation links */
   .customNav a {
-    color: white !important;
+    color: white;
   }
   .navCTA {
     font-size: 15px;
   }
   
-  .hero {
-    display: flex;
-    justify-content:center
-    background-image: none;
-    background-image: url();
-    padding: 0;
-    border: 0;
-    margin: auto;
-    text
-  }
 
   /* Jumbotron  */
   .jumbotron {
@@ -86,6 +76,8 @@ h1, h2, h3 , h4, h5, h6 {
     left: -97px;
   }
   footer {
+    display: flex;
+    justify-content:space-between;
     position: absolute;
     width: 100%;
     height: 60px;
