@@ -71,3 +71,7 @@ You are required to submit BOTH of the following for review:
 The URL of the deployed application.
 
 The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project.
+
+### Screenshot & link to deployed application
+
+Here is the link to the deployed application: https://decoleby91.github.io/Bootstrap-Portfolio/
