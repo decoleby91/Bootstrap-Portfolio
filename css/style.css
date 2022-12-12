@@ -53,7 +53,7 @@ h1, h2, h3 , h4, h5, h6 {
 
   /* Jumbotron  */
   .jumbotron {
-    background: url("https://cdn.pixabay.com/photo/2016/06/02/02/33/triangles-1430105__480.png") no-repeat center center; 
+    background: transparent;
     -webkit-background-size: 100% 100%;
     -moz-background-size: 100% 100%;
     -o-background-size: 100% 100%;
