@@ -32,14 +32,14 @@ h1, h2, h3 , h4, h5, h6 {
   /* Navigation dropdown menu */
   .dropdown-menu {
     background: url("../images/transparency.png");
-    background-color: hotpink;
+    background-color: transparent;
     background-size: cover;
     
   }
   .dropdown-item:focus, .dropdown-item:hover {
       color: #16181b;
       text-decoration: none;
-      background: hotpink;
+      background: rgb(7, 7, 7);
   }
   
   /* Navigation links */
@@ -61,9 +61,6 @@ h1, h2, h3 , h4, h5, h6 {
   
   }
 
-  body{
-    background-image: url("https://cdn.pixabay.com/photo/2016/06/02/02/33/triangles-1430105__480.png");
-  }
   
   /* Drop down menu stuff*/
   .dropdown-menu {
