@@ -52,17 +52,17 @@ h1, h2, h3 , h4, h5, h6 {
 
   /* Jumbotron  */
   .jumbotron {
-    background-image: url('https://cdn.pixabay.com/photo/2016/06/02/02/33/triangles-1430105__480.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: calc(100vh - 25px);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+    background: url("https://cdn.pixabay.com/photo/2016/06/02/02/33/triangles-1430105__480.png") no-repeat center center; 
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
   
+  }
 
-
+  body{
+    background-image: url("https://cdn.pixabay.com/photo/2016/06/02/02/33/triangles-1430105__480.png");
+  }
   
   /* Drop down menu stuff*/
   .dropdown-menu {
